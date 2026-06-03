@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-gold hover:text-ink transition-colors duration-300"
                         >
-                          Visit Live Website <ArrowUpRight className="h-4 w-4" />
+                          {project.linkLabel || "Visit Live Website"} <ArrowUpRight className="h-4 w-4" />
                         </a>
                       </div>
                     )}

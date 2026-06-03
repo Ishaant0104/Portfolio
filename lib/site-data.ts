@@ -166,5 +166,20 @@ export const allProjects = [
       "Designed a robust schema in Supabase for structured tour packages, client reviews, vehicle rates, and automated SMS alert dispatches.",
       "Developed a secure administrative desk to manage client inquiries, update holiday package rates dynamically, and log rental driver manifests."
     ]
+  },
+  {
+    slug: "personal-portfolio",
+    title: "Personal Portfolio & Engineering Showcase",
+    type: "Interactive Developer Portfolio",
+    description: "A high-performance developer portfolio website designed to showcase engineering case studies, interactive components, technical skills, and career timeline. Built with clean code practices and dynamic animation systems.",
+    stack: ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    link: "https://github.com/Ishaant0104/Portfolio",
+    linkLabel: "View GitHub Repo",
+    bullets: [
+      "Designed a fluid user experience featuring premium dark-mode aesthetics, custom micro-interactions, and magnetic navigation elements.",
+      "Integrated Framer Motion for smooth component entry animations, staggered layout reveal effects, and interactive hover feedback.",
+      "Developed a fully responsive, accessibility-conscious UI leveraging Tailwind CSS, Lucide React icons, and modern design tokens.",
+      "Separated content logic into a decoupled site configuration module, making it highly modular and scalable for future updates."
+    ]
   }
 ];
